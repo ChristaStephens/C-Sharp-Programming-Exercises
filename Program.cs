@@ -14,11 +14,16 @@ namespace arrays
             bigSnake.age = 2;
             bigSnake.indoor = true;
             bigSnake.name = "Long Legs";
+            bigSnake.discount = .10M;
+            bigSnake.price = 20;
+            bigSnake.tax = .06M;
+
+            Console.WriteLine(bigSnake.getPrice()); //math is off shows a decimal. need to fix method.
 
             Console.WriteLine(bigSnake.getBasicInfo());
 
             Plant rattleSnake = new Plant("succulent", "lightgreen", 2);
-            // Console.WriteLine(rattleSnake.getBasicInfo());
+            Console.WriteLine(rattleSnake.getBasicInfo());
 //remember index out of bounds means that you created an index or array line number that shouldn't be there!
             string[] birds = new string[3];
 

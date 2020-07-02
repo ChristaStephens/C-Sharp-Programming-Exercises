@@ -14,9 +14,9 @@ namespace arrays
         public int age;
         public bool indoor;
         public int price;
-        public int discount;
-        public int tax;
-        public int total;
+        public decimal discount;
+        public decimal tax;
+        public decimal total;
 
         public string getBasicInfo(){
             return $"Hello new plant owner! You have purchased a {name} and it is a {age} y/o plant. It is {indoor} that it lives in your home. Take care of it!";
